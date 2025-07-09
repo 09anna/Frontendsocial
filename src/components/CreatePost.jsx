@@ -70,7 +70,7 @@ const CreatePost = ({ open, setOpen }) => {
                     </Avatar>
                     <div>
                         <span className='font-semibold text-xs'>{user?.username}</span>
-                        <span className='text-gray-600 text-xs'>Bio here...</span>
+                       {/* <span className='text-gray-600 text-xs'>Bio here...</span>*/}
                     </div>
                 </div>
                 <Textarea value={caption} onChange={(e)=> setCaption(e.target.value)} className="focus-visible:ring-transparent border-none" placeholder="Write a caption..." />
