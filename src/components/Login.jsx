@@ -58,7 +58,7 @@ const Login = () => {
         <div className='flex items-center w-screen h-screen justify-center'>
             <form onSubmit={signupHandler} className='shadow-lg bg-white flex flex-col gap-5 p-8'>
                 <div className="my-4">
-                    <h1 className="text-center font-bold text-xl">Instagram</h1>
+                    <h1 className="text-center font-bold text-xl "style={{ color: '#E1306C' }}>Instagram</h1>
                     <p className="text-sm text-center">Login</p>
                 </div>
                 <div>
